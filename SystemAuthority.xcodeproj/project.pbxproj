@@ -15,6 +15,12 @@
 		4F49F48F1CB74DEF00F6C226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F49F48D1CB74DEF00F6C226 /* LaunchScreen.storyboard */; };
 		4F49F49A1CB74DEF00F6C226 /* SystemAuthorityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4991CB74DEF00F6C226 /* SystemAuthorityTests.m */; };
 		4F49F4A51CB74DEF00F6C226 /* SystemAuthorityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4A41CB74DEF00F6C226 /* SystemAuthorityUITests.m */; };
+		4F49F4B51CB74E1200F6C226 /* SystemAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F49F4B41CB74E1200F6C226 /* SystemAuthority.m */; };
+		4F49F4CF1CB784C000F6C226 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F49F4CE1CB784C000F6C226 /* AddressBook.framework */; };
+		4F49F4D11CB785E100F6C226 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F49F4D01CB785E100F6C226 /* AddressBookUI.framework */; };
+		4F49F4D41CB786D200F6C226 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F49F4D21CB786D200F6C226 /* Contacts.framework */; };
+		4F49F4D51CB786D200F6C226 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F49F4D31CB786D200F6C226 /* ContactsUI.framework */; };
+		4F49F4D71CB788A600F6C226 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F49F4D61CB788A600F6C226 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		4F49F4A01CB74DEF00F6C226 /* SystemAuthorityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemAuthorityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F49F4A41CB74DEF00F6C226 /* SystemAuthorityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemAuthorityUITests.m; sourceTree = "<group>"; };
 		4F49F4A61CB74DEF00F6C226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F49F4B31CB74E1200F6C226 /* SystemAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemAuthority.h; sourceTree = "<group>"; };
+		4F49F4B41CB74E1200F6C226 /* SystemAuthority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAuthority.m; sourceTree = "<group>"; };
+		4F49F4CE1CB784C000F6C226 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4F49F4D01CB785E100F6C226 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4F49F4D21CB786D200F6C226 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		4F49F4D31CB786D200F6C226 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		4F49F4D61CB788A600F6C226 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F49F4D71CB788A600F6C226 /* AVFoundation.framework in Frameworks */,
+				4F49F4D41CB786D200F6C226 /* Contacts.framework in Frameworks */,
+				4F49F4D51CB786D200F6C226 /* ContactsUI.framework in Frameworks */,
+				4F49F4D11CB785E100F6C226 /* AddressBookUI.framework in Frameworks */,
+				4F49F4CF1CB784C000F6C226 /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,11 @@
 		4F49F4731CB74DEF00F6C226 = {
 			isa = PBXGroup;
 			children = (
+				4F49F4D61CB788A600F6C226 /* AVFoundation.framework */,
+				4F49F4D21CB786D200F6C226 /* Contacts.framework */,
+				4F49F4D31CB786D200F6C226 /* ContactsUI.framework */,
+				4F49F4D01CB785E100F6C226 /* AddressBookUI.framework */,
+				4F49F4CE1CB784C000F6C226 /* AddressBook.framework */,
 				4F49F47E1CB74DEF00F6C226 /* SystemAuthority */,
 				4F49F4981CB74DEF00F6C226 /* SystemAuthorityTests */,
 				4F49F4A31CB74DEF00F6C226 /* SystemAuthorityUITests */,
@@ -101,6 +124,7 @@
 		4F49F47E1CB74DEF00F6C226 /* SystemAuthority */ = {
 			isa = PBXGroup;
 			children = (
+				4F49F4B21CB74E0700F6C226 /* SystemAuthority */,
 				4F49F4821CB74DEF00F6C226 /* AppDelegate.h */,
 				4F49F4831CB74DEF00F6C226 /* AppDelegate.m */,
 				4F49F4851CB74DEF00F6C226 /* ViewController.h */,
@@ -138,6 +162,15 @@
 				4F49F4A61CB74DEF00F6C226 /* Info.plist */,
 			);
 			path = SystemAuthorityUITests;
+			sourceTree = "<group>";
+		};
+		4F49F4B21CB74E0700F6C226 /* SystemAuthority */ = {
+			isa = PBXGroup;
+			children = (
+				4F49F4B31CB74E1200F6C226 /* SystemAuthority.h */,
+				4F49F4B41CB74E1200F6C226 /* SystemAuthority.m */,
+			);
+			path = SystemAuthority;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +305,7 @@
 			files = (
 				4F49F4871CB74DEF00F6C226 /* ViewController.m in Sources */,
 				4F49F4841CB74DEF00F6C226 /* AppDelegate.m in Sources */,
+				4F49F4B51CB74E1200F6C226 /* SystemAuthority.m in Sources */,
 				4F49F4811CB74DEF00F6C226 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SystemAuthority/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyajun.jianpan.SystemAuthority;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SystemAuthority/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyajun.jianpan.SystemAuthority;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +534,7 @@
 				4F49F4AB1CB74DEF00F6C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F49F4AC1CB74DEF00F6C226 /* Build configuration list for PBXNativeTarget "SystemAuthorityTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				4F49F4AE1CB74DEF00F6C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F49F4AF1CB74DEF00F6C226 /* Build configuration list for PBXNativeTarget "SystemAuthorityUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				4F49F4B11CB74DEF00F6C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
